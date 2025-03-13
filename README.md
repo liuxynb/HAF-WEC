@@ -1,8 +1,7 @@
 Heterogeneous all flash wide-stripe erasure coded KV storage
 =====
 
-This is the source code of ECWide-H described in our paper presented in USENIX FAST'21. 
-We implemet ECWide-H on Ubuntu-16.04 as follows.
+This is based on ECWide-H described in paper presented in USENIX FAST'21. 
 
 Preparation for required libraries
 ====
