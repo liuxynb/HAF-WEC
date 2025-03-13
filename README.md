@@ -1,4 +1,4 @@
-ECWide-H
+Heterogeneous-all-flash-wide-stripe-erasure-coded-KV-storage
 =====
 
 This is the source code of ECWide-H described in our paper presented in USENIX FAST'21. 
