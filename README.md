@@ -1,7 +1,7 @@
 Heterogeneous all flash wide-stripe erasure coded KV storage
 =====
 
-This is based on ECWide-H described in paper presented in USENIX FAST'21. 
+This is based on ECWide-H described in YuChong Hu's paper presented in USENIX FAST'21. 
 
 Preparation for required libraries
 ====
@@ -23,7 +23,7 @@ Users can install **Intel®-storage-acceleration-library (ISA-l)** manually.
     $ ./configure; make; sudo make install
 
 
-ECWide-H Installation
+HAF-WEC Installation
 ====
 
 **Memcached Servers, in */proxy***
