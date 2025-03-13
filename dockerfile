@@ -26,12 +26,12 @@ RUN git clone https://github.com/intel/isa-l.git \
     && make -j$(nproc) \
     && make install
 
-# 复制 HAF-WEC 源码
+# 复制 haf-wec 源码
 COPY . /haf-wec
 WORKDIR /haf-wec
 
-# 编译 HAF-WEC
+# 编译 haf-wec
 RUN make -j$(nproc)
 
-# 运行 HAF-WEC
+# 运行 haf-wec
 CMD ["bash"]
