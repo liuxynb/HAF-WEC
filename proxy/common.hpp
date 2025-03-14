@@ -37,8 +37,8 @@
 
 //server
 #define S_IP "192.168.1.79"
-#define S_PORT 12000
-#define P_PORT 20001
+#define S_PORT 12000 //server port
+#define P_PORT 20001 // proxy port
 
 //encode=2, repair=3, update=4
 #define LEVEL 1 //high -> less

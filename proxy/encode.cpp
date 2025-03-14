@@ -53,7 +53,7 @@ void show_local(unsigned char *parity)
 
 void show_global(unsigned char **parity)
 {
-    VERBOSE(2, "\n**********Global Parity start**********\n");
+    VERBOSE(2, "\n**********Global Parity start**********\n"); 
     for (int i = 0; i < GN - GK; i++)
     {
         VERBOSE(2, "\n***g-%d head***\n", i);
